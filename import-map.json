@@ -1,0 +1,10 @@
+{
+    "imports": {
+        "header": "http://localhost:5100/sspa-header/build/static/js/main.c34f2380.js",
+        "navbar": "http://localhost:5100/sspa-navbar/build/static/js/main.7188d13d.js",
+        "app": "http://localhost:5100/sspa-app/dist/sspa-app/browser/main-EL36GVFR.js",
+        "settings": "http://localhost:5100/settings.js",
+        "authentication": "http://localhost:5100/authentication.js",
+        "coreServices": "http://localhost:5100/sspa-core-services/dist/sspa-core-services/browser/main-DD4PSUYB.js"
+    }
+}

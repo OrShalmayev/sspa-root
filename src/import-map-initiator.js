@@ -25,7 +25,7 @@ export async function addImportMap() {
     const scriptElement = document.createElement('script');
     const baseUrl       = window.location.origin;
 
-    const imResponse  = await fetch(`${baseUrl}/import-map.json`);
+    const imResponse  = await fetch(`${baseUrl}/root/import-map.json`);
     let baseImportMap = await imResponse.json();
 
     const enrichedImportMap   = enrichImportMap(baseImportMap);
